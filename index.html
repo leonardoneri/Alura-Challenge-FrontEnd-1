@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/menu_lateral.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Mono&display=swap" rel="stylesheet">
+    
+    <title>AluraDev</title>
+</head>
+<body class="container">
+    <header>
+            <ul class="topo-site">
+                <li><img src="/img/Logo.svg" alt="Logo da alura Dev"></li>
+                <li class="size_search">
+                    <input type="text" name="search" id="search" placeholder="Busque por algo" class="font-inter">
+                </li>
+                <li class="nome-usuario-topo">
+                    <div>
+                        <img src="img/Photo.png" alt="foto-usuario" ><span class="space_nome_topo">Henry</span>
+                    </div>
+                </li>
+            </ul>
+    </header>
+    <main>
+        <nav class="menu-lateral">
+            <ul class="menu-lateral-lista" >
+                <h1>MENU</h1>
+                <li> 
+                    <img src="/img/icon_code.svg" alt="icon_code">
+                    <a href="index.html">Editor de Codigo</a>
+                </li>
+                <li>
+                    <img src="/img/icon_users.svg" alt="icon_users">
+                    <a href="comunidade.html">Comunidade</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="caixa_central">
+            <div class="caixa-contorno-textarea">
+                <textarea name="text-editor" id="texteditor"></textarea> 
+            </div>
+            <button class="btn_highlight">Visualizar com o highlight</button>
+        </section>
+        <section class="caixa_right">
+
+            <form class="input_right">
+                <fieldset>
+                    <legend>SEU PROJETO</legend>
+                    <input type="text" name="name_projeto" id="name_projeto" placeholder="Nome do seu projeto" class="input_right_style" required>
+                    <textarea type="text" name="desc_projeto" id="desc_projeto" placeholder="Descrição do seu projeto" class="input_right_style" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>PERSONALIZAÇÃO</legend>
+                    <select name="list_linguagens" id="list_linguagens" class="input_right_style">
+                        <option value="Javascript">Javascript</option>
+                        <option value="Html">Html</option>
+                        <option value="Css">Css</option>
+                    </select>
+                        <input type="color" name="favcolor" id="favcolor" value="#6BD1FF" class="input_right_style">
+                        <input type="submit" class="btn_salvar" value="Salvar Projeto"></input>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

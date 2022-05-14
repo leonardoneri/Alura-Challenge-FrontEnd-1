@@ -1,0 +1,58 @@
+.topo-site{
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 32px;
+
+
+}
+
+
+ul .size_search{
+    display: flex;
+    border-radius: 8px;
+    width: 52%;
+    background: rgba(255, 255, 255, 0.16);
+    height: 54px;
+    padding-left: 2.2%;
+    margin-right: 3%;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+ul .size_search:hover{
+    background: rgba(255, 255, 255, 0.20);
+
+}
+
+
+.nome-usuario-topo div{
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif; /*UTILIZADA VARIAS VEZES*/
+    font-size: 16px;
+    padding: 10px;
+    width: 20%;
+    
+}
+
+.nome-usuario-topo{
+    transition: 1s background;
+    border-radius: 8px;
+    cursor:pointer;
+}
+.nome-usuario-topo:hover{
+    background: rgba(255, 255, 255, 0.20);
+
+}
+
+
+
+.space_nome_topo{
+    padding-left: 8px;
+   
+}

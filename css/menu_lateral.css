@@ -1,0 +1,39 @@
+
+.menu-lateral{
+    margin-left: 32px;
+    width: 13%;
+    margin-right: 70px;
+
+}
+
+.menu-lateral-lista li, legend, h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    
+}
+.menu-lateral-lista h1, legend{
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 5px;
+    line-height: 18px;
+    
+}
+
+.menu-lateral-lista a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.menu-lateral-lista img{
+    text-align: center;
+    padding: 12px;
+    margin-right: 16px;
+    background-color: #5081FB;
+    border-radius: 16px;
+    
+}
